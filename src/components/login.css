@@ -1,0 +1,44 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+body {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container {
+   margin: 20px;
+   padding: 20px;
+   text-align: center;
+}
+
+.container .login-heading {
+   margin: 20px;
+}
+
+.container .container-body .sign-in-option {
+   position: relative;
+   display: flex;
+}
+
+.container .container-body .sign-in-option i {
+   position: absolute;
+   top: 27px;
+   left: 60px;
+   color: rgb(172, 67, 67);
+}
+
+.container .container-body .sign-in-option button{
+   display: block;
+   width: 15rem;
+   margin: 15px auto 0 auto;
+   padding: 8px;
+   box-shadow: 1px 1px 5px rgb(65, 60, 60);
+   cursor: pointer;
+}
